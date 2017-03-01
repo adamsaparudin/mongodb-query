@@ -3,8 +3,8 @@
 mongo
 use academic
 
-db.createCollections(departement)
-db.createCollections(student)
+db.createCollection("departement")
+db.createCollection("student")
 show collections
 
 db.getCollectionInfos({name: departement})
